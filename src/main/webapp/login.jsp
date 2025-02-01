@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
-<title>Login</title>
+<title>Login.jsp</title>
 
 <jsp:include page="./scaffolding/HeadLinks.jsp" />
 </head>
@@ -27,12 +27,12 @@
 		<form class="offset-4 col-4" action="SvLogin" method="POST">
 
 			<p>
-				<label>UserName</label> 
-				<input type="text" name="userName" placeholder="UserName">
+				<label>Username</label> 
+				<input type="text" name="username" placeholder="username">
 			</p>
 			<p>
 				<label>Password</label> 
-				<input type="password" name="userPassword" placeholder="Password">
+				<input type="password" name="password" placeholder="password">
 			</p>
 			<button type="submit" class="btn btn-primary">Login</button>
 			<%
